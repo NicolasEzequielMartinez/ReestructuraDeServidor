@@ -1,0 +1,30 @@
+<div class="Session">
+
+    <div id="conteProfi">
+        <div class="logoSession">
+            <h1>Tu perfil (Sin datos sensibles):</h1>
+            <div>
+                <a href="/realtimeproducts" style="margin-left: 2em"><img src="https://i.ibb.co/pKgL6pC/bench.png" alt="realtimeproducts" border="0" class="logoS"></a>
+                <a href="/cart" style="margin-left: 2em"><img src="https://i.ibb.co/8DFrsw8/cart1.png" alt="cart" border="0" class="logoS"></a>
+            </div>
+        </div>
+        <br/>
+
+        <div id="profile">
+
+            <a href="/"><img src="https://i.ibb.co/Kxb8GDb/login.png" alt="login" border="0" style="margin-top: 3em; height: 7vh; margin-top: 1em"></a>
+
+            <p>Nombre: {{user.first_name}}.</p>
+            <p>Apellido: {{user.last_name}}.</p>
+            <p>Correo: {{user.email}}.</p>
+            <p>Edad: {{user.age}}.</p>
+            <p>Rol: {{user.role}}.</p>
+
+            <br/>
+
+            <a class="botoncls" href="/logout">Cerrar sesión</a>
+        </div>
+
+    </div>
+
+</div>
